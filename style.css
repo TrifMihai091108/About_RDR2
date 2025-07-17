@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:"Garamond","Times New Roman",serif;
+}
+header{
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(0,0,0);
+    color: wheat;
+    position: fixed;
+    z-index: 100;
+    
+}
+main{
+    position: relative;
+    background-color: lightcoral;
+    top: 50px;
+}
+h2{
+    position: sticky;
+    bottom: 100px;
+    background-color: rgba(210, 5, 5, 0.522);
+    color: rgba(0,0,0,0.77);
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    top: 50px;
+    padding: 15px;
+}
+img{
+    width:100%;
+    height: auto;
+}
+
+p{
+    font-size: 18px;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    border: 1.4px solid black;
+}
+.lista ul li{
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    font-size:20px;
+    border: 1.3px solid black;
+}
+.caractere ol li{
+    color: black;
+    font-size: 18px;
+    border: 1.3px solid black;
+    font-weight: bold;
+    font-style: italic;
+}
+/* Mai trebuie o sectiune sus */
+/* Mai trebuie un buton care sa ne intoarca inapoi la meniu*/
+/*Titlul mai trebuie rezolvat */
